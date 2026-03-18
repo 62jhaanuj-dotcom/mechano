@@ -1,37 +1,36 @@
-import header_img from "./header_img.png";
-import header_imgg from "./header_imgg.png";
-import header_imggg from "./header_imggg.png";
-
+import header_img from "./header_img.webp";
+import header_imgg from "./header_imgg.webp";
+import header_imggg from "./header_imggg.webp";
 import logo from "./logo.svg";
 
 
 import Banner_img from "./Banner_img.png";
-import mech1 from "./mech1.png";
-import mech2 from "./mech2.png";
-import mech3 from "./mech3.png";
-import mech4 from "./mech4.png";
-import mech5 from "./mech5.png";
-import mech6 from "./mech6.png";
-import mech7 from "./mech7.png";
-import mech8 from "./mech8.png";
-import mech9 from "./mech9.png";
-import mech10 from "./mech10.png";
+import mech1 from "./mech1.webp";
+import mech2 from "./mech2.webp";
+import mech4 from "./mech4.webp";
+import mech5 from "./mech5.webp";
+import mech6 from "./mech6.webp";
+import mech7 from "./mech7.webp";
+import mech3 from "./mech3.webp";
+import mech8 from "./mech8.webp";
+import mech9 from "./mech9.webp";
+import mech10 from "./mech1.webp";
 
 import PerformanceBrakeRotorsPads from "./PerformanceBrakeRotorsPads.png";
 import CastrolOil from "./CastrolOil.png";
-import Coldair from "./Coldair.png";
-import Sealight from "./Sealight.png";
+import Coldair from "./Coldair.webp";
+import Sealight from "./Sealight.webp";
 import Tire from "./Tire.png";
-import battery from "./battery.png";
+import battery from "./battery.webp";
 import boschquiet from "./boschquiet.png";
 import MobileOil from "./MobileOil.png";
 import sc from "./sc.png";
 import OilFilter from "./OilFilter.png";
 
-import General_Service from "./General_Service.png";
-import Engine_Repair from "./Engine_Repair.png";
-import Electrical_Repair from "./Electrical_Repair.png";
-import AC_Service from "./AC_Service.png";
+import General_Service from "./General_Service.webp";
+import Engine_Repair from "./Engine_Repair.webp";
+import Electrical_Repair from "./Electrical_Repair.webp";
+import AC_Service from "./AC_Service.webp";
 import Denting_Painting from "./Denting_Painting.png";
 
 export const assets = {

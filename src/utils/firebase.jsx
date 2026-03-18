@@ -5,7 +5,7 @@ import { getAuth } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAN9BnfD8zkSH20skL22GkHIOc2pcpl9R8",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "mechano-ed20f.firebaseapp.com",
   projectId: "mechano-ed20f",
   storageBucket: "mechano-ed20f.firebasestorage.app",
