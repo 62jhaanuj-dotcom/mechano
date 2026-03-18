@@ -14,7 +14,7 @@ import mech7 from "./mech7.webp";
 import mech3 from "./mech3.webp";
 import mech8 from "./mech8.webp";
 import mech9 from "./mech9.webp";
-import mech10 from "./mech1.webp";
+import mech10 from "./mech10.webp";
 
 import PerformanceBrakeRotorsPads from "./PerformanceBrakeRotorsPads.png";
 import CastrolOil from "./CastrolOil.png";
@@ -151,14 +151,14 @@ export const mechanics = [
   // --- MAIN MECHANICS (6 Experts) ---
   {
     _id: "mech1",
-    name: "Richard Miller",
+    name: "Rahul Sharma",
     image: mech1,
     speciality: "Engine Repair",
     Post: "Engine Specialist",
     degree: "Master Tech",
     experience: "8 Years",
     about:
-      "Expert in engine overhauling, fuel injection systems, and performance tuning. Richard ensures your powertrain is in top-notch condition.",
+      "Expert in engine overhauling, fuel injection systems, and performance tuning. Rahul ensures your powertrain is in top-notch condition.",
     fees: 500,
     address: {
       line1: "Sector 12, Workshop Hub",
@@ -167,7 +167,7 @@ export const mechanics = [
   },
   {
     _id: "mech2",
-    name: "Christopher Davis",
+    name: "Amit Vishwakarma",
     image: mech2,
     speciality: "Electrical Repair",
     Post: "Auto Electrician",
@@ -180,7 +180,7 @@ export const mechanics = [
   },
   {
     _id: "mech3",
-    name: "William Thompson",
+    name: "Vikram Singh",
     image: mech3,
     speciality: "Engine Repair",
     Post: "Transmission Expert",
@@ -193,7 +193,7 @@ export const mechanics = [
   },
   {
     _id: "mech4",
-    name: "Sarah Jenkins", // Keeping it diverse with a female lead expert
+    name: "Priya Solanki", // Diversity maintained with an Indian female expert
     image: mech4,
     speciality: "Denting & Painting",
     Post: "Denting & Painting Expert",
@@ -206,7 +206,7 @@ export const mechanics = [
   },
   {
     _id: "mech5",
-    name: "David Smith",
+    name: "Deepak Verma",
     image: mech5,
     speciality: "AC Service",
     Post: "AC Specialist",
@@ -219,7 +219,7 @@ export const mechanics = [
   },
   {
     _id: "mech6",
-    name: "Michael Carter",
+    name: "Manoj Ahirwar",
     image: mech6,
     speciality: "Engine Repair",
     Post: "Suspension Specialist",
@@ -234,7 +234,7 @@ export const mechanics = [
   // --- ASSISTANTS (6 Junior/Support Staff) ---
   {
     _id: "mech7",
-    name: "Kevin Adams",
+    name: "Karan Yadav",
     image: mech7,
     speciality: "General Service",
     Post: "General Assistant",
@@ -247,7 +247,7 @@ export const mechanics = [
   },
   {
     _id: "mech8",
-    name: "Jason Reed",
+    name: "Jatin Prajapati",
     image: mech8,
     speciality: "Electrical Repair",
     Post: "Electrician",
@@ -260,7 +260,7 @@ export const mechanics = [
   },
   {
     _id: "mech9",
-    name: "Daniel Garcia",
+    name: "Dinesh Chouhan",
     image: mech9,
     speciality: "Denting & Painting",
     Post: "Detailing Assistant",
@@ -273,7 +273,7 @@ export const mechanics = [
   },
   {
     _id: "mech10",
-    name: "Austin Parker",
+    name: "Ajay Rathore",
     image: mech10,
     speciality: "General Service",
     Post: "General Assistant",

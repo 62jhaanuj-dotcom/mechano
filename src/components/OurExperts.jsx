@@ -139,7 +139,7 @@ const OurExperts = () => {
                       Session Fee
                     </p>
                     <p className="text-2xl font-black text-red-600 tracking-tighter">
-                      ${item.fees}
+                      ₹{item.fees}
                     </p>
                   </div>
                 </div>

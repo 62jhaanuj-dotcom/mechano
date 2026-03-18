@@ -1,4 +1,6 @@
+# =========================
 # Logs
+# =========================
 logs
 *.log
 npm-debug.log*
@@ -7,29 +9,39 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# =========================
 # Dependencies
+# =========================
 node_modules
 dist
 dist-ssr
 *.local
 
-# Secrets (Zaruri: Isse API Key safe rahegi)
+# =========================
+# Environment Variables (Secrets)
+# =========================
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Editor directories and files
+# =========================
+# Editor / OS Files
+# =========================
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+desktop.ini
+*.ini
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-# Firebase cache
+# =========================
+# Firebase
+# =========================
 .firebase
