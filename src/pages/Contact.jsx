@@ -93,10 +93,10 @@ const Contact = () => {
                   Our Garage
                 </p>
                 <p className="text-lg font-bold text-white">
-                  123 Auto Hub Street
+                  Parshav Dham Colony 
                 </p>
                 <p className="text-sm text-gray-400">
-                  Downtown District
+                  Geeta Nagar Bhopal
                 </p>
               </div>
 

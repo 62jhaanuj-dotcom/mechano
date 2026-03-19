@@ -193,7 +193,7 @@ export const mechanics = [
   },
   {
     _id: "mech4",
-    name: "Priya Solanki", // Diversity maintained with an Indian female expert
+    name: "Raj Solanki", // Diversity maintained with an Indian female expert
     image: mech4,
     speciality: "Denting & Painting",
     Post: "Denting & Painting Expert",
