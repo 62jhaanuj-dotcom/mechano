@@ -71,7 +71,7 @@ Email notifications using **EmailJS** when:
 ## Tools
 
 * EmailJS
-* GitHub (Version Control)
+* Git (Version Control)
 
 ---
 
