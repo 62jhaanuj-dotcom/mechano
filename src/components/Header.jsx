@@ -27,7 +27,7 @@ const Header = () => {
 
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-[1.1]">
           Find the Best <br />
-          <span className="text-red-600">Mechanics</span> Near You
+          <span className="text-red-600">Mechanics</span> IN Seconds
         </h1>
 
         <p className="text-black-200 text-lg md:text-xl font-semibold max-w-md leading-relaxed">

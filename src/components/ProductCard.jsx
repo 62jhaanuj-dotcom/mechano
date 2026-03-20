@@ -44,7 +44,6 @@ const ProductCard = ({ item }) => {
 
   return (
     <div className="group relative border border-slate-100 rounded-[2.5rem] p-5 bg-white hover:shadow-[0_20px_50px_rgba(0,0,0,0.05)] transition-all duration-500 hover:-translate-y-2 flex flex-col h-full">
-      
       {/* --- BADGES --- */}
       <div className="absolute top-8 left-8 flex flex-col gap-2 z-10">
         {item.isNew && (
@@ -115,11 +114,11 @@ const ProductCard = ({ item }) => {
             </p>
             <div className="flex items-center gap-2">
               <p className="text-slate-900 font-black text-2xl">
-                ₹{Number(item.price || 0).toLocaleString('en-IN')}
+                ₹{Number(item.price || 0).toLocaleString("en-IN")}
               </p>
               {item.oldPrice && (
                 <p className="text-slate-300 line-through text-xs font-bold">
-                  ₹{Number(item.oldPrice).toLocaleString('en-IN')}
+                  ₹{Number(item.oldPrice).toLocaleString("en-IN")}
                 </p>
               )}
             </div>
@@ -137,17 +136,16 @@ const ProductCard = ({ item }) => {
             }`}
           >
             {showSuccess ? (
-              <div className="flex items-center gap-2 animate-in zoom-in duration-300">
+              <div className="flex items-center gap-3 animate-in zoom-in duration-300">
                 <CheckCircle2 size={16} />
                 <span>Added!</span>
               </div>
             ) : adding ? (
               <Loader2 size={16} className="animate-spin" />
             ) : (
-              <>
-                <ShoppingCart size={16} strokeWidth={2.5} />
-                <span>Add To Cart</span>
-              </>
+              <button className="px-1 py-2 bg-black-500 text-white rounded">
+                Add To Cart
+              </button>
             )}
           </button>
         </div>

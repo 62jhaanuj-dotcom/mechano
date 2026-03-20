@@ -7,11 +7,11 @@ import logo from "./logo.svg";
 import Banner_img from "./Banner_img.png";
 import mech1 from "./mech1.webp";
 import mech2 from "./mech2.webp";
+import mech3 from "./mech3.webp";
 import mech4 from "./mech4.webp";
 import mech5 from "./mech5.webp";
 import mech6 from "./mech6.webp";
 import mech7 from "./mech7.webp";
-import mech3 from "./mech3.webp";
 import mech8 from "./mech8.webp";
 import mech9 from "./mech9.webp";
 import mech10 from "./mech10.webp";
@@ -193,7 +193,7 @@ export const mechanics = [
   },
   {
     _id: "mech4",
-    name: "Raj Solanki", // Diversity maintained with an Indian female expert
+    name: "Ankit Solanki", // Diversity maintained with an Indian female expert
     image: mech4,
     speciality: "Denting & Painting",
     Post: "Denting & Painting Expert",
